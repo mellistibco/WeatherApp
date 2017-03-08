@@ -23,7 +23,6 @@ script:
   - flogo add flow getWeather.json
   - cp ../triggers.json ./bin
   - flogo build
-  - cd ..
 
 after_script:
   - docker build -t flogo/getweather:1.0 .
