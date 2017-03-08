@@ -1,0 +1,11 @@
+language: go
+
+go:
+  - 1.7.x
+
+install:
+  - go get github.com/constabulary/gb/...
+  - go get github.com/TIBCOSoftware/flogo-cli/...
+
+script:
+  - flogo create WeatherApp
