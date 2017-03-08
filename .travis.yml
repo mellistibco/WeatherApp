@@ -9,3 +9,11 @@ install:
 
 script:
   - flogo create WeatherApp
+  - cp getWeather.json ./WeatherApp
+  - cd WeatherApp
+  - flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/log
+  - flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/rest
+  - flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/reply
+  - flogo add trigger github.com/TIBCOSoftware/flogo-contrib/trigger/rest
+  - flogo add flow myflow.json
+  - cp ../triggers.json ./bin
