@@ -15,5 +15,5 @@ script:
   - flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/rest
   - flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/reply
   - flogo add trigger github.com/TIBCOSoftware/flogo-contrib/trigger/rest
-  - flogo add flow myflow.json
+  - flogo add flow getWeather.json
   - cp ../triggers.json ./bin
