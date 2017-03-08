@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-/tmp/app/test
+/tmp/app/WeatherApp
