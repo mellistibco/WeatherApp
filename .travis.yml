@@ -17,3 +17,4 @@ script:
   - flogo add trigger github.com/TIBCOSoftware/flogo-contrib/trigger/rest
   - flogo add flow getWeather.json
   - cp ../triggers.json ./bin
+  - flogo build
