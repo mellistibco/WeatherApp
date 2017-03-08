@@ -25,5 +25,5 @@ script:
   - flogo build
 
 after_script:
-  - docker build -t flogo/getweather:1.0 .
+  - docker build -t flogo/getweather:1.0 ../
   - docker images

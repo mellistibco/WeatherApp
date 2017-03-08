@@ -4,7 +4,7 @@ RUN apk update
 RUN apk add bash
 
 RUN mkdir /tmp/app
-ADD bin/ /tmp/app/
+ADD ./bin/ /tmp/app/
 ADD ./docker-start.sh /tmp/app
 
 USER root
