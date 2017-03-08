@@ -1,0 +1,63 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/Sirupsen/logrus",
+			"repository": "https://github.com/Sirupsen/logrus",
+			"revision": "0208149b40d863d2c1a2f8fe5753096a9cf2cc8b",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/TIBCOSoftware/flogo-contrib/activity/reply",
+			"repository": "https://github.com/TIBCOSoftware/flogo-contrib",
+			"revision": "e9d9ec690557cae04ad3a2b9a6a4015c86df3dcc",
+			"branch": "master",
+			"path": "/activity/reply"
+		},
+		{
+			"importpath": "github.com/TIBCOSoftware/flogo-contrib/activity/rest",
+			"repository": "https://github.com/TIBCOSoftware/flogo-contrib",
+			"revision": "e9d9ec690557cae04ad3a2b9a6a4015c86df3dcc",
+			"branch": "master",
+			"path": "/activity/rest"
+		},
+		{
+			"importpath": "github.com/TIBCOSoftware/flogo-contrib/model/simple",
+			"repository": "https://github.com/TIBCOSoftware/flogo-contrib",
+			"revision": "e9d9ec690557cae04ad3a2b9a6a4015c86df3dcc",
+			"branch": "master",
+			"path": "/model/simple"
+		},
+		{
+			"importpath": "github.com/TIBCOSoftware/flogo-contrib/trigger/rest",
+			"repository": "https://github.com/TIBCOSoftware/flogo-contrib",
+			"revision": "e9d9ec690557cae04ad3a2b9a6a4015c86df3dcc",
+			"branch": "master",
+			"path": "/trigger/rest"
+		},
+		{
+			"importpath": "github.com/TIBCOSoftware/flogo-lib",
+			"repository": "https://github.com/TIBCOSoftware/flogo-lib",
+			"revision": "21a34972a7e89f1b5abefeb08a31cd4f86f8af1e",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/japm/goScript",
+			"repository": "https://github.com/japm/goScript",
+			"revision": "3266fcf5cd71e868212632f6fc773062a54b7d9c",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/julienschmidt/httprouter",
+			"repository": "https://github.com/julienschmidt/httprouter",
+			"revision": "8a45e95fc75cb77048068a62daed98cc22fdac7c",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/op/go-logging",
+			"repository": "https://github.com/op/go-logging",
+			"revision": "970db520ece77730c7e4724c61121037378659d9",
+			"branch": "master"
+		}
+	]
+}

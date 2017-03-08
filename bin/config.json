@@ -1,0 +1,27 @@
+{
+  "loglevel": "INFO",
+  "actionRunner": {
+    "type": "pooled"
+  },
+  "services": [
+    {
+      "name": "stateRecorder",
+      "enabled": false,
+      "settings": {
+        "host": "",
+        "port": ""
+      }
+    },
+    {
+      "name": "flowProvider",
+      "enabled": true
+    },
+    {
+      "name": "engineTester",
+      "enabled": true,
+      "settings": {
+        "port": "8080"
+      }
+    }
+  ]
+}

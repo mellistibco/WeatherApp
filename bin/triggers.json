@@ -1,0 +1,22 @@
+{
+  "triggers": [
+    {
+      "name": "tibco-rest",
+      "settings": {
+        "port": "8099"
+      },
+      "endpoints": [
+        {
+          "actionType": "flow",
+          "actionURI": "embedded://getWeather",
+          "settings":{
+            "method": "GET",
+            "path": "/weather/:zipCode",
+            "autoIdReply": "false",
+            "useReplyHandler": "false"
+        }
+}
+      ]
+    }
+  ]
+}
