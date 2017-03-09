@@ -35,7 +35,8 @@ RUN mkdir -p "$GOPATH/src" "$GOPATH/bin" && chmod -R 777 "$GOPATH" \
 
 WORKDIR /tmp/app
 
-ADD ./* /tmp/app/
+ADD ./app/* /tmp/app/
+ADD ./docker-start.sh /tmp/app/
 
 RUN flogo create WeatherApp
 RUN cp getWeather.json ./WeatherApp/getWeather.json
