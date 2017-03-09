@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-/tmp/app/WeatherApp
+cd /tmp/app/WeatherApp/bin
+./WeatherApp
