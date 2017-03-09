@@ -1,5 +1,5 @@
 {
   "name": "WeatherApp",
   "description": "An example app.json for container-deploy",
-  "image": "heroku/go:1.7"
+  "image": "mhart/alpine-node:6.4.0"
 }
