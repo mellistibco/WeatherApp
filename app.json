@@ -1,7 +1,7 @@
 {
   "name": "WeatherApp",
   "description": "An example app.json for container-deploy",
-  "image": "flogo/weatherapp",
+  "image": "heroku/go",
 "buildpacks": [
     {
       "url": "https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-go"
