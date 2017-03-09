@@ -50,7 +50,8 @@ RUN cd ./WeatherApp \
 
 ADD ./docker-start.sh /tmp/app
 
-USER root
+RUN adduser -D myuser
+USER myuser
 
 EXPOSE 8099
 RUN cd /tmp/app
