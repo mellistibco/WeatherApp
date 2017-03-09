@@ -4,7 +4,7 @@
   "image": "heroku/go",
 "buildpacks": [
     {
-      "url": "https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-go"
+      "url": "https://github.com/heroku/heroku-buildpack-go"
     }
   ]
 }
