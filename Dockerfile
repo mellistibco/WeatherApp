@@ -1,7 +1,10 @@
 FROM alpine:latest
 
-RUN apk update
-RUN apk add bash
+RUN set -ex \
+  && apk add --no-cache --virtual .build-deps \
+     bash \
+     gcc \
+     musl-dev
 
 RUN mkdir /tmp/app
 ADD ./WeatherApp/bin/ /tmp/app/WeatherApp/bin
