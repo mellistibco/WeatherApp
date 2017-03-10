@@ -1,5 +1,0 @@
-{
-  "name": "WeatherApp",
-  "description": "An example app.json for container-deploy",
-  "image": "mhart/alpine-node:6.4.0"
-}
