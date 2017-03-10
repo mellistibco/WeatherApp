@@ -4,8 +4,10 @@ RUN apk update
 RUN apk add bash
 
 RUN mkdir /tmp/app
-COPY ./WeatherApp/bin/ /tmp/app/ 
+ADD ./WeatherApp/bin/ /tmp/app/WeatherApp/bin
 ADD ./docker-start.sh /tmp/app
+
+RUN ls -al ./WeatherApp
 
 USER root
 
