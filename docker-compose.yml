@@ -1,0 +1,8 @@
+shell:
+  build: .
+  command: bash
+  working_dir: ./WeatherApp
+  environment:
+    PORT: 8099
+  ports:
+    - '8099:8099'
