@@ -7,8 +7,6 @@ RUN mkdir /tmp/app
 ADD ./WeatherApp/bin/ /tmp/app/WeatherApp/bin
 ADD ./docker-start.sh /tmp/app
 
-RUN ls -al ./WeatherApp
-
 USER root
 
 EXPOSE 8099
