@@ -5,7 +5,7 @@ RUN apk add bash
 
 RUN mkdir /tmp/app
 ADD ./WeatherApp/bin/ /tmp/app/
-ADD ./docker-start.sh /tmp/app
+ADD ./docker-start.sh /tmp/app/WeatherApp/bin/
 
 USER root
 
