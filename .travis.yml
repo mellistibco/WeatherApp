@@ -26,4 +26,5 @@ script:
 
 after_script:
   - docker build -t mellistibco/weatherapp:latest ../
+  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
   - docker push mellistibco/weatherapp:latest
