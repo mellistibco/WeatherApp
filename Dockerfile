@@ -3,8 +3,7 @@ FROM alpine:latest
 RUN set -ex \
   && apk add --no-cache --virtual .build-deps \
      bash \
-     gcc \
-     musl-dev
+     glibc
 
 RUN mkdir /tmp/app
 ADD ./WeatherApp/bin/ /tmp/app/WeatherApp/bin
