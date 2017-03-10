@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-cd /tmp/app/WeatherApp/bin/WeatherApp/bin
+cd /tmp/app/WeatherApp/bin
 ls -l ./
 ./WeatherApp
