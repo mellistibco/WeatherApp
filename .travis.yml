@@ -14,16 +14,16 @@ install:
 
 script:
   - flogo create WeatherApp
-  - cp getWeather.json ./WeatherApp
+  - cp app/getWeather.json ./WeatherApp
   - cd WeatherApp
   - flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/log
   - flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/rest
   - flogo add activity github.com/TIBCOSoftware/flogo-contrib/activity/reply
   - flogo add trigger github.com/TIBCOSoftware/flogo-contrib/trigger/rest
   - flogo add flow getWeather.json
-  - cp ../triggers.json ./bin
+  - cp ../app/triggers.json ./bin
   - flogo build
 
 after_script:
-  - docker build -t flogo/getweather:1.0 ../
-  - docker images
+  - docker build -t mellistibco/weatherapp:latest ../
+  - docker push mellistibco/weatherapp:latest
